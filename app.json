@@ -1,0 +1,12 @@
+{
+  "name": "Payma",
+  "displayName": "Payma",
+  "expo": {
+    "name": "Payma",
+    "slug": "Payma",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
