@@ -24,7 +24,7 @@ export default function App({ navigation, route }: any) {
                     value= 'user {firebase.auth().currentUser?.uid }'
                 />
                 <Container style={{ flexDirection: 'row', alignItems: 'center', marginTop: '45%'  }}>
-                    <Button warning rounded style= {{ marginRight: '5%' }}><Text>Pay with Handle</Text></Button>
+                    <Button warning rounded style={{ marginRight: '5%' }} onPress={() => navigation.navigate('SendWithHandle')}><Text>Pay with Handle</Text></Button>
                     <Button danger rounded><Text>Pay with QR Code</Text></Button>
                 </Container>
             </Container>
